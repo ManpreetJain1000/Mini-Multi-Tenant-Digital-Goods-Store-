@@ -1,0 +1,564 @@
+{
+    "stores": [
+        {
+            "id": "store1",
+            "name": "Music Haven",
+            "logo": "/logos/StoreLogo/MusicLogo.jpg"
+        },
+        {
+            "id": "store2",
+            "name": "Book Bay",
+            "logo": "/logos/StoreLogo/BookStoreLogo.webp"
+        },
+        {
+            "id": "store3",
+            "name": "Grocery Garden",
+            "logo": "/logos/StoreLogo/GroceryLogo.webp"
+        },
+        {
+            "id": "store4",
+            "name": "Perfume Paradise",
+            "logo": "/logos/StoreLogo/PerfumeLogo.webp"
+        },
+        {
+            "id": "store5",
+            "name": "Shoe Stop",
+            "logo": "/logos/StoreLogo/ShoeLogo.png"
+        },
+        {
+            "id": "store6",
+            "name": "Fashion Fiesta",
+            "logo": "/logos/StoreLogo/FashionLogo.png"
+        }
+    ],
+    "products": [
+        {
+            "id": "p1",
+            "title": "Lofi Chill Beats",
+            "price": 5,
+            "description": "A curated MP3 pack of calming lofi beats, perfect for studying, relaxing, or setting a mellow mood.",
+            "category": "Music",
+            "subCategory": "Lo-Fi",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRojEkSs6WFabwVqUrmoz46jUgYZScxAzjjBnb5zmSI4fX6T5sU_a2DM4vDRKinyTqW0&usqp=CAU"
+        },
+        {
+            "id": "p3",
+            "title": "Jazz Instrumentals Pack",
+            "price": 8,
+            "description": "Smooth, high-quality jazz tracks for personal enjoyment or creative projects. Includes 12 unique instrumentals.",
+            "category": "Music",
+            "subCategory": "Jazz",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://st3.depositphotos.com/4265001/19434/v/1600/depositphotos_194341160-stock-illustration-jazz-music-party-logo-vector.jpg"
+        },
+        {
+            "id": "p5",
+            "title": "Lofi Chill Beats",
+            "price": 15,
+            "description": "A curated MP3 pack of calming lofi beats, perfect for studying, relaxing, or setting a mellow mood.",
+            "category": "Music",
+            "subCategory": "Lo-Fi",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRojEkSs6WFabwVqUrmoz46jUgYZScxAzjjBnb5zmSI4fX6T5sU_a2DM4vDRKinyTqW0&usqp=CAU"
+        },
+        {
+            "id": "p6",
+            "title": "Jazz Instrumentals Pack",
+            "price": 25,
+            "description": "A curated MP3 pack of calming lofi beats, perfect for studying, relaxing, or setting a mellow mood.",
+            "category": "Music",
+            "subCategory": "Jazz",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://st3.depositphotos.com/4265001/19434/v/1600/depositphotos_194341160-stock-illustration-jazz-music-party-logo-vector.jpg"
+        },
+        {
+            "id": "p7",
+            "title": "Jazz Instrumentals Pack",
+            "price": 18,
+            "description": "A curated MP3 pack of calming lofi beats, perfect for studying, relaxing, or setting a mellow mood.",
+            "category": "Music",
+            "subCategory": "Jazz",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://st3.depositphotos.com/4265001/19434/v/1600/depositphotos_194341160-stock-illustration-jazz-music-party-logo-vector.jpg"
+        },
+        {
+            "id": "p8",
+            "title": "Lofi Chill Beats",
+            "price": 75,
+            "description": "A curated MP3 pack of calming lofi beats, perfect for studying, relaxing, or setting a mellow mood.",
+            "category": "Music",
+            "subCategory": "Lo-Fi",
+            "categoryIcon": "/icons/ProductLogo/LoFiMusicLogo.jpg",
+            "storeId": "store1",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRojEkSs6WFabwVqUrmoz46jUgYZScxAzjjBnb5zmSI4fX6T5sU_a2DM4vDRKinyTqW0&usqp=CAU"
+        },
+        {
+            "id": "p9",
+            "title": "Ambient Electronic Vibes",
+            "price": 35,
+            "description": "A curated MP3 pack of calming lofi beats, perfect for studying, relaxing, or setting a mellow mood.",
+            "category": "Music",
+            "subCategory": "Ambient",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEBb4QVsB10ZAdOEBUZS3_pveXjGnd8ZlOQ&s"
+        },
+        {
+            "id": "p11",
+            "title": "Ambient Electronic Vibes",
+            "price": 28,
+            "description": "A collection of soothing electronic tracks with ambient textures, ideal for background music or creative inspiration.",
+            "category": "Music",
+            "subCategory": "Ambient",
+            "categoryIcon": "/icons/music-note.svg",
+            "storeId": "store1",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEBb4QVsB10ZAdOEBUZS3_pveXjGnd8ZlOQ&s"
+        },
+        {
+            "id": "p2",
+            "title": "Sci-Fi Adventures Collection",
+            "price": 10,
+            "description": "Unlock your full potential with this expertly crafted guide to productivity hacks and time management techniques.",
+            "category": "Books",
+            "subCategory": "Sci-Fi",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://m.media-amazon.com/images/I/71XPvnkr1sL._UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": "p13",
+            "title": "Beginner’s Guide to Coding",
+            "price": 20,
+            "description": "A step-by-step eBook for learning programming basics, perfect for aspiring developers.",
+            "category": "Books",
+            "subCategory": "Coding",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654791082i/61256345.jpg"
+        },
+        {
+            "id": "p4",
+            "title": "Sci-Fi Adventures Collection",
+            "price": 12,
+            "description": "An illustrated book to help you master meditation, reduce stress, and live a more mindful life.",
+            "category": "Books",
+            "subCategory": "Sci-Fi",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://m.media-amazon.com/images/I/71XPvnkr1sL._UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": "p12",
+            "title": "Beginner’s Guide to Coding",
+            "price": 15,
+            "description": "A thrilling anthology of coding and full of AI worlds.",
+            "category": "Books",
+            "subCategory": "Coding",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654791082i/61256345.jpg"
+        },
+        {
+            "id": "p16",
+            "title": "Personal Finance Blueprint",
+            "price": 14,
+            "description": "A practical guide to managing your finances, saving money, and building wealth.",
+            "category": "Books",
+            "subCategory": "Finance",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://img.pikbest.com/png-images/20241006/accounting-financial-finance-book-logo-design-vector-icon-symbol-illustration_10932836.png!bw700"
+        },
+        {
+            "id": "p14",
+            "title": "Healthy Cooking Recipes",
+            "price": 8,
+            "description": "A cookbook filled with nutritious and delicious recipes for a balanced lifestyle.",
+            "category": "Books",
+            "subCategory": "Cooking",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://m.media-amazon.com/images/I/61UVSDlkL4L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": "p17",
+            "title": "Personal Finance Blueprint",
+            "price": 25,
+            "description": "A practical guide to managing your finances, saving money, and building wealth.",
+            "category": "Books",
+            "subCategory": "Finance",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://img.pikbest.com/png-images/20241006/accounting-financial-finance-book-logo-design-vector-icon-symbol-illustration_10932836.png!bw700"
+        },
+        {
+            "id": "p15",
+            "title": "Healthy Cooking Recipes Collection",
+            "price": 18,
+            "description": "A cookbook filled with nutritious and delicious recipes for a balanced lifestyle.",
+            "category": "Books",
+            "subCategory": "Cooking",
+            "categoryIcon": "/icons/book.svg",
+            "storeId": "store2",
+            "image": "https://m.media-amazon.com/images/I/61UVSDlkL4L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": "p18",
+            "title": "Organic Fruit Basket",
+            "price": 20,
+            "description": "A fresh assortment of organic fruits, including apples, bananas, and berries, delivered to your door.",
+            "category": "Grocery",
+            "subCategory": "Fruits",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-QzCWKDaZ4ktX8YvAWO1fo6cKdYsQPH0Lxg&s"
+        },
+        {
+            "id": "p19",
+            "title": "Whole Grain Bread Loaf",
+            "price": 5,
+            "description": "Freshly baked whole grain bread, perfect for sandwiches or toast.",
+            "category": "Grocery",
+            "subCategory": "Bakery",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://i.ytimg.com/vi/lQ5foJfMVEY/maxresdefault.jpg"
+        },
+        {
+            "id": "p20",
+            "title": "Organic Fruit Basket",
+            "price": 12,
+            "description": "A fresh assortment of organic fruits, including apples, bananas, and berries, delivered to your door.",
+            "category": "Grocery",
+            "subCategory": "Fruits",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-QzCWKDaZ4ktX8YvAWO1fo6cKdYsQPH0Lxg&s"
+        },
+        {
+            "id": "p21",
+            "title": "Farm-Fresh Eggs",
+            "price": 6,
+            "description": "A dozen free-range eggs from local farms, perfect for breakfast or baking.",
+            "category": "Grocery",
+            "subCategory": "Eggs",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2237034327/display_1500/stock-vector-egg-logo-design-cooking-egg-logo-egg-logo-template-2237034327.jpg"
+        },
+        {
+            "id": "p22",
+            "title": "Organic Vegetable Medley",
+            "price": 15,
+            "description": "A mix of seasonal organic vegetables, including carrots, broccoli, and zucchini.",
+            "category": "Grocery",
+            "subCategory": "Vegetables",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/008/603/965/small_2x/banner-with-vegetables-healthy-food-concept-vector.jpg"
+        },
+        {
+            "id": "p23",
+            "title": "Whole Grain Bread Loaf",
+            "price": 18,
+            "description": "A selection of gourmet cheeses, perfect for entertaining or a cozy night in.",
+            "category": "Grocery",
+            "subCategory": "Bakery",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://i.ytimg.com/vi/lQ5foJfMVEY/maxresdefault.jpg"
+        },
+        {
+            "id": "p24",
+            "title": "NFarm-Fresh Eggs",
+            "price": 10,
+            "description": "A dozen free-range eggs from local farms, perfect for breakfast or baking.",
+            "category": "Grocery",
+            "subCategory": "Eggs",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://www.shutterstock.com/shutterstock/photos/2237034327/display_1500/stock-vector-egg-logo-design-cooking-egg-logo-egg-logo-template-2237034327.jpg"
+        },
+        {
+            "id": "p25",
+            "title": "Organic Vegetable Medley",
+            "price": 8,
+            "description": "A mix of seasonal organic vegetables, including carrots, broccoli, and zucchini.",
+            "category": "Grocery",
+            "subCategory": "Vegetables",
+            "categoryIcon": "/icons/grocery-cart.svg",
+            "storeId": "store3",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/008/603/965/small_2x/banner-with-vegetables-healthy-food-concept-vector.jpg"
+        },
+        {
+            "id": "p26",
+            "title": "Floral Bliss Eau de Parfum",
+            "price": 50,
+            "description": "A light, floral fragrance with notes of jasmine and rose, perfect for everyday wear.",
+            "category": "Perfume",
+            "subCategory": "Floral",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://img.freepik.com/free-vector/floral-luxury-perfume-logo_23-2148466503.jpg"
+        },
+        {
+            "id": "p27",
+            "title": "Ocean Breeze Cologne",
+            "price": 45,
+            "description": "A refreshing cologne with aquatic and citrus notes, ideal for a crisp, clean scent.",
+            "category": "Perfume",
+            "subCategory": "Aquatic",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://www.mcaffeine.com/cdn/shop/files/Card_2_72166891-1734-4f57-b731-bbd6ceb44e0c.jpg?v=1727356585&width=1445"
+        },
+        {
+            "id": "p28",
+            "title": "Woody Amber Essence",
+            "price": 60,
+            "description": "A warm, woody fragrance with hints of amber and sandalwood for a sophisticated touch.",
+            "category": "Perfume",
+            "subCategory": "Woody",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://lafrenchperfumes.com/cdn/shop/files/3_1986c268-544b-4384-b37e-7edcd04bc7ce.jpg?v=1744628165"
+        },
+        {
+            "id": "p29",
+            "title": "Spiced Oud Fragrance",
+            "price": 40,
+            "description": "A zesty perfume with vibrant citrus and green tea notes, perfect for a lively day.",
+            "category": "Perfume",
+            "subCategory": "Oud",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://clients.creativealif.com/images/portfolio/logo/thumb/1564055839_oud-al-sabah-perfume-calligraphy.jpg"
+        },
+        {
+            "id": "p30",
+            "title": "Ocean Breeze Cologne",
+            "price": 35,
+            "description": "A sweet and creamy aquatic scent with a touch of caramel, great for evening wear.",
+            "category": "Perfume",
+            "subCategory": "Aquatic",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://www.mcaffeine.com/cdn/shop/files/Card_2_72166891-1734-4f57-b731-bbd6ceb44e0c.jpg?v=1727356585&width=1445"
+        },
+        {
+            "id": "p31",
+            "title": "Spiced Oud Fragrance",
+            "price": 70,
+            "description": "A luxurious blend of oud and spices, creating a bold and exotic aroma.",
+            "category": "Perfume",
+            "subCategory": "Oud",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://clients.creativealif.com/images/portfolio/logo/thumb/1564055839_oud-al-sabah-perfume-calligraphy.jpg"
+        },
+        {
+            "id": "p32",
+            "title": "Lavender Serenity Mist",
+            "price": 30,
+            "description": "A calming lavender body mist, perfect for a relaxing and soothing experience.",
+            "category": "Perfume",
+            "subCategory": "Floral",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://img.freepik.com/free-vector/floral-luxury-perfume-logo_23-2148466503.jpg"
+        },
+        {
+            "id": "p33",
+            "title": "Woody Amber Essence",
+            "price": 55,
+            "description": "A playful fragrance with notes of peach and berries, ideal for a youthful vibe.",
+            "category": "Perfume",
+            "subCategory": "Woody",
+            "categoryIcon": "/icons/perfume.svg",
+            "storeId": "store4",
+            "image": "https://lafrenchperfumes.com/cdn/shop/files/3_1986c268-544b-4384-b37e-7edcd04bc7ce.jpg?v=1744628165"
+        },
+        {
+            "id": "p34",
+            "title": "Classic Leather Sneakers",
+            "price": 60,
+            "description": "Timeless leather sneakers, perfect for casual outings or everyday comfort.",
+            "category": "Shoes",
+            "subCategory": "Sneakers",
+            "categoryIcon": "/icons/shoe.svg",
+            "storeId": "store5",
+            "image": "https://static.vecteezy.com/system/resources/previews/047/763/220/non_2x/sneakers-shoes-logo-vintage-for-your-community-or-your-brand-tshirt-design-vector.jpg"
+        },
+        {
+            "id": "p35",
+            "title": "Hiking Boots",
+            "price": 150,
+            "description": "Durable, waterproof boots designed for rugged outdoor adventures.",
+            "category": "Shoes",
+            "subCategory": "Hiking",
+            "categoryIcon": "/icons/shoe.png",
+            "storeId": "store5",
+            "image": "https://media.istockphoto.com/id/1397074866/vector/a-pair-of-shoes-for-hiking-camping-walking-tourist-trekking-boots.jpg?s=612x612&w=0&k=20&c=5oI9LYiaqBWNBjB51k_iv03itZKvJ62HRX_WqsZ6hsM="
+        },
+        {
+            "id": "p36",
+            "title": "Formal Dress Shoes",
+            "price": 100,
+            "description": "Polished leather dress shoes, ideal for business meetings or formal events.",
+            "category": "Shoes",
+            "subCategory": "Formal",
+            "categoryIcon": "/icons/shoe.svg",
+            "storeId": "store5",
+            "image": "https://www.shutterstock.com/image-vector/mens-classic-leather-shoe-shoes-260nw-1652077072.jpg"
+        },
+        {
+            "id": "p37",
+            "title": "Classic Leather Sneakers",
+            "price": 95,
+            "description": "Timeless leather sneakers, perfect for casual outings or everyday comfort.",
+            "category": "Shoes",
+            "subCategory": "Sneakers",
+            "categoryIcon": "/icons/shoe.svg",
+            "storeId": "store5",
+            "image": "https://static.vecteezy.com/system/resources/previews/047/763/220/non_2x/sneakers-shoes-logo-vintage-for-your-community-or-your-brand-tshirt-design-vector.jpg"
+        },
+        {
+            "id": "p38",
+            "title": "Hiking Boots",
+            "price": 120,
+            "description": "Durable, waterproof boots designed for rugged outdoor adventures.",
+            "category": "Shoes",
+            "subCategory": "Hiking",
+            "categoryIcon": "/icons/shoe.png",
+            "storeId": "store5",
+            "image": "https://media.istockphoto.com/id/1397074866/vector/a-pair-of-shoes-for-hiking-camping-walking-tourist-trekking-boots.jpg?s=612x612&w=0&k=20&c=5oI9LYiaqBWNBjB51k_iv03itZKvJ62HRX_WqsZ6hsM="
+        },
+        {
+            "id": "p39",
+            "title": "Formal Dress Shoes",
+            "price": 120,
+            "description": "Polished leather dress shoes, ideal for business meetings or formal events.",
+            "category": "Shoes",
+            "subCategory": "Formal",
+            "categoryIcon": "/icons/shoe.svg",
+            "storeId": "store5",
+            "image": "https://www.shutterstock.com/image-vector/mens-classic-leather-shoe-shoes-260nw-1652077072.jpg"
+        },
+        {
+            "id": "p40",
+            "title": "Classic Leather Sneakers",
+            "price": 70,
+            "description": "Timeless leather sneakers, perfect for casual outings or everyday comfort.",
+            "category": "Shoes",
+            "subCategory": "Sneakers",
+            "categoryIcon": "/icons/shoe.svg",
+            "storeId": "store5",
+            "image": "https://static.vecteezy.com/system/resources/previews/047/763/220/non_2x/sneakers-shoes-logo-vintage-for-your-community-or-your-brand-tshirt-design-vector.jpg"
+        },
+        {
+            "id": "p41",
+            "title": "Hiking Boots",
+            "price": 135,
+            "description": "Durable, waterproof boots designed for rugged outdoor adventures.",
+            "category": "Shoes",
+            "subCategory": "Hiking",
+            "categoryIcon": "/icons/shoe.png",
+            "storeId": "store5",
+            "image": "https://media.istockphoto.com/id/1397074866/vector/a-pair-of-shoes-for-hiking-camping-walking-tourist-trekking-boots.jpg?s=612x612&w=0&k=20&c=5oI9LYiaqBWNBjB51k_iv03itZKvJ62HRX_WqsZ6hsM="
+        },
+        {
+            "id": "p42",
+            "title": "Bohemian Maxi Dress",
+            "price": 55,
+            "description": "A flowy maxi dress with vibrant patterns, perfect for a chic boho look.",
+            "category": "Fashion",
+            "subCategory": "Women",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://img.freepik.com/premium-vector/simple-fashion-business-logo-illustration_278222-7382.jpg?w=360"
+        },
+        {
+            "id": "p43",
+            "title": "Casual Chino Pants",
+            "price": 85,
+            "description": "Comfortable chino pants with a modern fit, great for everyday wear.",
+            "category": "Fashion",
+            "subCategory": "Men",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://img.freepik.com/premium-vector/man-clothing-store-logo_752850-812.jpg?semt=ais_hybrid&w=740"
+        },
+        {
+            "id": "p44",
+            "title": "Graphic Tee Collection",
+            "price": 25,
+            "description": "A set of stylish graphic tees with unique designs for casual wear.",
+            "category": "Fashion",
+            "subCategory": "Kids",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/kids-%27clothes-logos-design-template-42903e62df8ba26c4b3b79928074fbdb_screen.jpg?ts=1638177153"
+        },
+        {
+            "id": "p45",
+            "title": "Denim Jacket",
+            "price": 60,
+            "description": "A classic denim jacket, versatile for layering in any season.",
+            "category": "Fashion",
+            "subCategory": "Kids",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/kids-%27clothes-logos-design-template-42903e62df8ba26c4b3b79928074fbdb_screen.jpg?ts=1638177153"
+        },
+        {
+            "id": "p46",
+            "title": "Elegant Evening Gown",
+            "price": 150,
+            "description": "A stunning evening gown for formal events, with intricate detailing.",
+            "category": "Fashion",
+            "subCategory": "Women",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://img.freepik.com/premium-vector/simple-fashion-business-logo-illustration_278222-7382.jpg?w=360"
+        },
+        {
+            "id": "p47",
+            "title": "Casual Chino Pants",
+            "price": 45,
+            "description": "Comfortable chino pants with a modern fit, great for everyday wear.",
+            "category": "Fashion",
+            "subCategory": "Men",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://img.freepik.com/premium-vector/man-clothing-store-logo_752850-812.jpg?semt=ais_hybrid&w=740"
+        },
+        {
+            "id": "p48",
+            "title": "Knit Sweater",
+            "price": 50,
+            "description": "A cozy knit sweater, perfect for cool weather and layering.",
+            "category": "Fashion",
+            "subCategory": "Kids",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/kids-%27clothes-logos-design-template-42903e62df8ba26c4b3b79928074fbdb_screen.jpg?ts=1638177153"
+        },
+        {
+            "id": "p49",
+            "title": "Summer Floral Skirt",
+            "price": 35,
+            "description": "A breezy floral skirt, ideal for warm days and casual outings.",
+            "category": "Fashion",
+            "subCategory": "Women",
+            "categoryIcon": "/icons/fashion.svg",
+            "storeId": "store6",
+            "image": "https://img.freepik.com/premium-vector/simple-fashion-business-logo-illustration_278222-7382.jpg?w=360"
+        }
+    ]
+}
