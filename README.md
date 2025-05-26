@@ -1,4 +1,3 @@
-# PokerBoss Office APP
 
 ## Pre-requisites 
   Do `npm install` to download the node modules required for the project.
